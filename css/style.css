@@ -26,7 +26,8 @@ theme.
 body {
   line-height: 25px;
   font-size: 16px;
-  font-family: "Crimson Text", serif;
+  /* font-family: "Crimson Text", serif; */
+  font-family: 'Comfortaa', cursive;
   font-weight: 600;
   color: #777777; }
 
@@ -417,7 +418,8 @@ button:focus {
   min-height: 780px;
   display: flex;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/home-banner.jpg) no-repeat scroll center; }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/college-building.png) no-repeat scroll center; 
+  background-size:     cover; }
   .home_banner_area .banner_inner {
     position: relative;
     z-index: 10;
@@ -605,7 +607,7 @@ button:focus {
 /* Start Features Area css
 ============================================================================================ */
 .feature_area {
-  margin-top: -37em; }
+  margin-top: -42em; }
   @media (max-width: 991px) {
     .feature_area {
       margin-top: 60px; } }
