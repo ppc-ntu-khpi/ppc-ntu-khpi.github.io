@@ -19,6 +19,7 @@ theme.
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:400,600");
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /*---------------------------------------------------- */
@@ -418,7 +419,7 @@ button:focus {
   min-height: 780px;
   display: flex;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/college-building.png) no-repeat scroll center; 
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/college-building.png) no-repeat scroll center;
   background-size:     cover; }
   .home_banner_area .banner_inner {
     position: relative;
